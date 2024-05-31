@@ -4,6 +4,11 @@ const reveal = document.querySelectorAll('.reveal');
 const hero = document.querySelector('.hero');
 const header = document.querySelector('.header');
 
+const dateEl = document.querySelector('.date');
+
+// date
+const currDate = new Date().getFullYear();
+dateEl.textContent = currDate;
 // reveals
 const revealSection = function(entries, observer){
   const [entry] = entries;
