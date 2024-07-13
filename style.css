@@ -266,6 +266,9 @@ background-color: rgba(255,255,255, 0);
 .dark-section{
   background: linear-gradient(to top left, #151515, #333);
 }
+.dark-section2{
+  background: linear-gradient(to top right, #333, #151515);
+}
 
 .night-text {
   color: #eee;
@@ -278,7 +281,7 @@ background-color: rgba(255,255,255, 0);
 
 /*  */
 footer{
-   background: linear-gradient(to bottom left, #151515, #333);
+   background: linear-gradient(to top left, #151515, #333);
   padding: 3.2rem;
 }
 
